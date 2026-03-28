@@ -15,6 +15,8 @@ extension DeviceUIStyle {
         case .iphoneDynamicIsland: return "iphone.gen3"
         case .ipadHomeButton: return "ipad.gen1"
         case .ipadNoHomeButton: return "ipad.gen2"
+        case .appleWatch: return "applewatch"
+        case .visionPro: return "visionpro"
         case .macLaptop: return "macbook"
         case .macMini: return "macmini"
         case .macPro: return "macpro.gen3"

@@ -7,7 +7,9 @@ let package = Package(
     name: "DeviceInfo",
     platforms: [
         .iOS(.v18),
-        .macOS(.v10_15)
+        .macOS(.v10_15),
+        .watchOS(.v11),
+        .visionOS(.v2)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.

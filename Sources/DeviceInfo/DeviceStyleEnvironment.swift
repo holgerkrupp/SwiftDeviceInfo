@@ -8,7 +8,7 @@
 import SwiftUI
 
 private struct DeviceStyleKey: @preconcurrency EnvironmentKey {
-    @MainActor static let defaultValue: DeviceUIStyle = .iphoneHomeButton
+    @MainActor static let defaultValue: DeviceUIStyle = .defaultForCurrentPlatform
 }
 
 public extension EnvironmentValues {

@@ -8,7 +8,7 @@
 import SwiftUI
 
 public struct DeviceStyleReader: ViewModifier {
-    @State private var detectedStyle: DeviceUIStyle = .iphoneHomeButton
+    @State private var detectedStyle: DeviceUIStyle = .defaultForCurrentPlatform
 
     public init() {}
 
